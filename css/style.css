@@ -662,6 +662,11 @@ footer span {
     max-width: 320px;
     margin: 0 auto;
   }
+  .stat .n {
+    font-size: 1.4rem;
+    padding: 0.4rem;
+
+  }
 }
 
 .navbar-brand {
@@ -944,5 +949,15 @@ footer span {
 
   .tag {
     font-size: 10px;
+  }
+
+  .stat .n {
+    font-family: "Playfair Display", serif;
+    font-size: 1.075rem;
+    font-weight: 400;
+  }
+
+  .stat {
+    padding: 0.5rem;
   }
 }
