@@ -8,7 +8,13 @@
   </head>
   <body>
     <nav id="navbar">
-      <a href="#hero" class="nav-logo">Sill <span>Fagyizó</span></a>
+      <a href="#hero" class="nav-logo">
+        <div class="nav-mini-logo">
+          <img src="assets/img/csanad_logo.jpg" alt="Sill Fagyizó logó" />
+        </div>
+
+        <span class="nav-logo-text"> Sill <span>Fagyizó</span> </span>
+      </a>
 
       <button class="hamburger" id="hamburger" aria-label="Menü">
         <span></span>
@@ -40,12 +46,6 @@
           >
         </p>
         <a href="#flavors" class="hero-btn">Fedezd fel az ízeket</a>
-      </div>
-
-      <div class="hero-logo">
-        <div class="navbar-brand">
-          <img src="assets/img/csanad_logo.jpg" alt="Logo" />
-        </div>
       </div>
     </section>
 
@@ -101,12 +101,19 @@
         <div class="header">
           <div>
             <span class="tag">Ízeink</span>
-            <h2>Egy gombóc minden hangulatra</h2>
+            <h2
+              style="
+                font-family: &quot;Dancing Script&quot;, cursive;
+                font-weight: 400;
+              "
+            >
+              Egy gombóc minden hangulatra
+            </h2>
           </div>
         </div>
       </div>
 
-      <div class="scroll-wrapper flavors-slider">
+      <div id="slider" class="scroll-wrapper flavors-slider">
         <div class="track flavors-track" id="flavorTrack">
           <div class="card">
             <img src="assets/img/almas.jpg" />
@@ -164,6 +171,7 @@
           </div>
         </div>
       </div>
+      <a href="flavors.html" class="more-flavors-btn">Fagylaltjaink &gt;&gt;</a>
     </section>
 
     <section id="rolunk" class="block about">
@@ -218,25 +226,25 @@
       </div>
       <div class="locations-grid">
         <div class="location-card" data-delay="0">
-          <div class="location-img">🏙️</div>
+          <div class="location-img loc1"></div>
           <div class="location-body">
             <div
               class="location-name typing-target"
-              data-text="Sill fagyizó Baja — Belváros"
+              data-text="Sill fagyizó Baja"
             ></div>
             <div class="location-info">
               <div class="location-row">
                 <span class="icon">📍</span>
                 <span
                   class="typing-target"
-                  data-text="1052 Budapest, Váci utca 12."
+                  data-text="6503 Baja, Garibaldi u. 28."
                 ></span>
               </div>
               <div class="location-row">
                 <span class="icon">🕐</span>
                 <span
                   class="typing-target"
-                  data-text="H–P: 10:00–22:00 | Sz–V: 10:00–23:00"
+                  data-text="H–V: 13:00–20:00 (szezonálisan nyitva)"
                 ></span>
               </div>
             </div>
@@ -255,14 +263,14 @@
                 <span class="icon">📍</span>
                 <span
                   class="typing-target"
-                  data-text="1146 Budapest, Állatkerti körút 5."
+                  data-text="6347 Érsekcsanád, Dózsa György út 77."
                 ></span>
               </div>
               <div class="location-row">
                 <span class="icon">🕐</span>
                 <span
                   class="typing-target"
-                  data-text="H–V: 11:00–21:00 (szezonálisan nyitva)"
+                  data-text="H–V: 12:00–19:00 (szezonálisan nyitva)"
                 ></span>
               </div>
             </div>
@@ -270,26 +278,49 @@
         </div>
 
         <div class="location-card" data-delay="300">
-          <div class="location-img loc3">☕</div>
+          <div class="location-img loc3"></div>
           <div class="location-body">
             <div
               class="location-name typing-target"
-              data-text="Cuki fagyizó"
+              data-text="CUKI Café & Bar"
             ></div>
             <div class="location-info">
               <div class="location-row">
                 <span class="icon">📍</span>
                 <span
                   class="typing-target"
-                  data-text="1025 Budapest, Törökvész út 30."
+                  data-text="6500 Baja, Szentháromság tér 11."
                 ></span>
               </div>
               <div class="location-row">
                 <span class="icon">🕐</span>
                 <span
                   class="typing-target"
-                  data-text="K–V: 11:00–20:00 | Hétfőn zárva"
+                  data-text="V–CS: 8:00–21:00 | Péntek: 8:00–1:00 | Szombat: 8:00–3:00"
                 ></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="location-card" data-delay="300">
+          <div class="location-img loc4"></div>
+          <div class="location-body">
+            <div
+              class="location-name typing-target"
+              data-text="Manó Fagyizó"
+            ></div>
+            <div class="location-info">
+              <div class="location-row">
+                <span class="icon">📍</span>
+                <span
+                  class="typing-target"
+                  data-text="6500 Baja, Lőkert sor 1/I."
+                ></span>
+              </div>
+              <div class="location-row">
+                <span class="icon">🕐</span>
+                <span class="typing-target" data-text="H-V: 12:30-20:30"></span>
               </div>
             </div>
           </div>

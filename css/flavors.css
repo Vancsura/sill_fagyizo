@@ -1,0 +1,37 @@
+.flavors-page {
+  min-height: 100vh;
+  padding-top: 8rem;
+  background:
+    linear-gradient(rgba(245, 239, 227, 0.9), rgba(245, 239, 227, 0.9)),
+    url("../assets/img/fagyizo_processed.png") center / cover no-repeat;
+
+  background-attachment: fixed;
+}
+
+.flavors-page-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  padding: 0 1.25rem 4rem;
+}
+
+.flavors-page-grid .card {
+  width: 100%;
+  opacity: 1;
+}
+
+.flavors-page-grid .card img {
+  height: 260px;
+}
+
+@media (min-width: 768px) {
+  .flavors-page-grid {
+    grid-template-columns: repeat(3, minmax(280px, 360px));
+    justify-content: center;
+    padding: 0 4rem 5rem;
+  }
+
+  .flavors-page-grid .card img {
+    height: 320px;
+  }
+}

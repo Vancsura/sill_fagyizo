@@ -15,7 +15,7 @@ const observer = new IntersectionObserver(
 );
 
 document
-  .querySelectorAll(".fade-in-up, .about-visual, .about-content")
+  .querySelectorAll(".fade-in-up")
   .forEach((el) => observer.observe(el));
 
 const locationCards = document.querySelectorAll(".location-card");
